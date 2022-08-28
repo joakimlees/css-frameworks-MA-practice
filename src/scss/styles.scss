@@ -1,13 +1,3 @@
-$red: red;
+@import "variables.scss";
 
-.test {
-  display: none;
-
-  &-button {
-    background-color: $red;
-  }
-}
-
-h1 {
-  color: purple;
-}
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
