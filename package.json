@@ -1,0 +1,30 @@
+{
+  "name": "practice-app",
+  "version": "0.0.1",
+  "description": "practice for css frameworks, bootstrap and sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joakimlees/css-frameworks-MA-practice.git"
+  },
+  "keywords": [
+    "css-frameworks",
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Joakim Lee Sletten <joakimlee_sletten@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joakimlees/css-frameworks-MA-practice/issues"
+  },
+  "homepage": "https://github.com/joakimlees/css-frameworks-MA-practice#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.54.5"
+  }
+}
